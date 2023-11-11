@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load crispy_forms_tags %}
+
+<section class="section_gap" style="margin-top: -20px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="contact-title">Get in Touch with us:</h2>
+        </div>
+        <!-- <div class="col-lg-8 mb-4 mb-lg-0"> -->
+          <!-- <form class="form-contact contact_form" action="." method="post" id="contactForm" novalidate="novalidate"> -->
+            <!-- {% csrf_token %} -->
+            <!-- <div class="row"> -->
+              <!-- <div class="col-12"> -->
+                <!-- <div class="form-group"> -->
+                    <!-- {{ form.message|as_crispy_field }} -->
+                <!-- </div> -->
+              <!-- </div> -->
+              <!-- <div class="col-sm-6"> -->
+                <!-- <div class="form-group"> -->
+                    <!-- {{ form.name|as_crispy_field }} -->
+                <!-- </div> -->
+              <!-- </div> -->
+              <!-- <div class="col-sm-6"> -->
+                <!-- <div class="form-group"> -->
+                    <!-- {{ form.from_email|as_crispy_field }} -->
+                <!-- </div> -->
+              <!-- </div> -->
+              <!-- <div class="col-12"> -->
+                <!-- <div class="form-group"> -->
+                    <!-- {{ form.subject|as_crispy_field }} -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="form-group mt-lg-3"> -->
+              <!-- <button type="submit" class="main_btn">Send Message</button> -->
+            <!-- </div> -->
+          <!-- </form> -->
+        <!-- </div> -->
+
+        <div class="col-lg-4" style="margin-top: 30px;">
+          <div class="media contact-info">
+
+            <div class="media-body">
+              <h3><a href="https://www.google.com/maps/place/Frydenb%C3%B8veien+25,+5162+Laksev%C3%A5g/@60.3816482,5.3073545,17z/data=!3m1!4b1!4m6!3m5!1s0x463cfbf8c3fcfa1f:0xebe1f13e1a6f3a1!8m2!3d60.3816482!4d5.3099294!16s%2Fg%2F11cnd8y8gf?entry=ttu">Frydenbøveien 25, 5162 Laksevåg, Bergen, Norway</a></h3>
+              <p>Organisation number: 3626 27 741141</p>
+            </div>
+          </div>
+          <div class="media contact-info">
+            <div class="media-body">
+              <h3><a href="tel:90879910">908 79 910</a></h3>
+              <p>Call us at anytime!</p>
+            </div>
+          </div>
+          <div class="media contact-info">
+            <div class="media-body">
+              <h3><a href="mailto:amandale060386@gmail.com">
+amandale060386@gmail.com</a></h3>
+              <p>Send us your query anytime!</p>
+            </div>
+          </div>
+		<div class="media contact-info">
+            <div class="media-body">
+              <h3><a href="https://www.facebook.com/amandaleshop">
+FB: Amandaleshop</a></h3>
+              <p>Visit us at anytime!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}
